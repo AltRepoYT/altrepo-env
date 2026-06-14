@@ -48,7 +48,7 @@ const env = createEnv(schema, {
 
 ## AltRepo
 
-@altrepo/env is part of the AltRepo developer utility ecosystem.
+@altrepo/env is part of the [AltRepo developer tools](https://altrepo.net/dev/) developer utility ecosystem.
 
 More tools and packages:
 https://altrepo.net
