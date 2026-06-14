@@ -9,6 +9,9 @@
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://altrepo.net",
   "repository": {
     "type": "git",
