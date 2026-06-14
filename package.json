@@ -1,0 +1,43 @@
+{
+  "name": "@altrepo/env",
+  "version": "0.1.0",
+  "description": "Tiny zero-dependency TypeScript utility for parsing and validating environment variables at startup.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "homepage": "https://altrepo.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AltRepoYT/altrepo-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AltRepoYT/altrepo-env/issues"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "environment-variables",
+    "process-env",
+    "config",
+    "validation",
+    "parser",
+    "typescript",
+    "node",
+    "zero-dependency",
+    "altrepo"
+  ],
+  "author": "AltRepo <contact@altrepo.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
